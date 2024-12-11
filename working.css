@@ -1,0 +1,103 @@
+/* إعادة تعيين بعض الأنماط الافتراضية */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* تحديد تنسيق الصفحة */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* محاذاة المحتوى إلى الجهة اليمنى */
+  align-items: center; /* محاذاة المحتوى عموديًا في المنتصف */
+  background-color: #f0f0f0;
+}
+
+/* تنسيق الـ div الذي يحتوي على المدخلات */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column; /* ترتيب المدخلات بشكل عمودي */
+  gap: 10px; /* إضافة مسافة بين المدخلات */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* تنسيق المدخلات */
+input {
+  padding: 10px;
+  width: 200px;/* إعادة تعيين بعض الأنماط الافتراضية */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* تحديد تنسيق الصفحة */
+  body {
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: flex-end; /* محاذاة المحتوى إلى الجهة اليمنى */
+      align-items: center; /* محاذاة المحتوى عموديًا في المنتصف */
+      background-color: #f0f0f0;
+  }
+  
+  /* تنسيق الـ div الذي يحتوي على المدخلات */
+  .container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+  .inputs {
+      display: flex;
+      flex-direction: column; /* ترتيب المدخلات بشكل عمودي */
+      gap: 20px; /* إضافة مسافة بين المجموعات */
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+  }
+  
+  /* تنسيق الـ rows لجعل العناصر في سطر واحد */
+  .row {
+      display: flex;
+      gap: 10px; /* إضافة مسافة بين المدخلات في نفس السطر */
+  }
+  
+  /* تنسيق المدخلات */
+  input {
+      padding: 10px;
+      width: 180px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  /* تنسيق الـ input عند التمرير عليه */
+  input:focus {
+      border-color: #007bff;
+      outline: none;
+  }
+  
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* تنسيق الـ input عند التمرير عليه */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
